@@ -243,7 +243,7 @@
   <script>
   (function(){
     var RT = {"vidiff": {"label": "VIDiff", "platforms": {"linux": {"wf": "vidiff-linux-container.yml", "inputs": {"head_sha": "{sha}", "base_sha": "{parent}"}}}}, "snapshots2": {"label": "VI Browser 2.0 Snapshots", "platforms": {"linux": {"wf": "vi-snapshots-json.yml", "inputs": {"mode": "head", "target_sha": "{sha}"}}}}};
-    var RT_TIMING = {"vidiff": {"linux": {"total": null, "work": null}}, "snapshots2": {"linux": {"total": null, "work": null}}};
+    var RT_TIMING = {"vidiff": {"linux": {"total": 9.0, "work": null}}, "snapshots2": {"linux": {"total": null, "work": null}}};
     var REPO = "astemes/astemes-vi-diff-sandbox";
     var BRANCH = "main";
     var TOK_KEY = "lvci_dispatch_token";
@@ -1128,7 +1128,7 @@
     // activities to queue. Reuses dispatchCells (oldest-first, snapshots as one
     // backfill) + the same token and optimistic-queued bridge as every other
     // dispatch on the dashboard.
-    var HIST = [{"sha": "8eeb7a951770623d1482a4438ac19e3d62402bb8", "short": "8eeb7a9", "msg": "Create Main.vi", "snapshots2": {"windows": {"have": 0, "total": 1}, "linux": {"have": 0, "total": 1}}}];                        // [{sha, short, msg}] newest-first (project revisions)
+    var HIST = [{"sha": "383c14661d8adbad3ecc83e7c0f16d6c791f2a6f", "short": "383c146", "msg": "Update Main.vi", "snapshots2": {"windows": {"have": 0, "total": 1}, "linux": {"have": 0, "total": 1}}}, {"sha": "8eeb7a951770623d1482a4438ac19e3d62402bb8", "short": "8eeb7a9", "msg": "Create Main.vi", "snapshots2": {"windows": {"have": 0, "total": 1}, "linux": {"have": 0, "total": 1}}}];                        // [{sha, short, msg}] newest-first (project revisions)
     var RAN = {};                     // {cap:1} caps with a result/active run somewhere in history
     var CAP_META = {                            // label + sub for each known capability
       'snapshots':   ['VI Snapshots', 'Renders every changed VI (classic HTML snapshots)'],
@@ -1638,7 +1638,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — astemes-vi-diff-sandbox</h1>
-  <div class="sub">Last updated: 2026-06-29 05:09 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
+  <div class="sub">Last updated: 2026-06-29 05:19 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/astemes/astemes-vi-diff-sandbox">GitHub</a>
     <a href="https://github.com/astemes/astemes-vi-diff-sandbox/actions">Actions</a>
@@ -1682,6 +1682,42 @@
       </tr>
     </thead>
     <tbody>
+    <tr data-project="false" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(81,42%,45%)" title="Anton Sundqvist" aria-hidden="true">A</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://astemes.github.io/astemes-vi-diff-sandbox/vi-snapshots/index.html?sha=f798c099e870ee0062718bb793479c0982f50d51" class="cidash-rev-msg" title="Merge branch &#x27;main&#x27; of https://github.com/astemes/astemes-vi-diff-sandbox">Merge branch &#x27;main&#x27; of https://github.com/astemes/astemes-vi-diff-sandbox</a></div>
+            <div class="cidash-rev-meta"><a href="https://astemes.github.io/astemes-vi-diff-sandbox/vi-snapshots/index.html?sha=f798c099e870ee0062718bb793479c0982f50d51" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">f798c09</a><span class="cidash-rev-dot">&middot;</span>Anton Sundqvist<span class="cidash-rev-dot">&middot;</span>2026-06-29</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
+    <tr data-project="true" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(81,42%,45%)" title="Anton Sundqvist" aria-hidden="true">A</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://astemes.github.io/astemes-vi-diff-sandbox/vi-snapshots/index.html?sha=383c14661d8adbad3ecc83e7c0f16d6c791f2a6f" class="cidash-rev-msg" title="Update Main.vi">Update Main.vi</a></div>
+            <div class="cidash-rev-meta"><a href="https://astemes.github.io/astemes-vi-diff-sandbox/vi-snapshots/index.html?sha=383c14661d8adbad3ecc83e7c0f16d6c791f2a6f" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">383c146</a><span class="cidash-rev-dot">&middot;</span>Anton Sundqvist<span class="cidash-rev-dot">&middot;</span>2026-06-29</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center"><a href="#" class="cidash-run" data-cap="vidiff" data-sha="383c14661d8adbad3ecc83e7c0f16d6c791f2a6f" data-parent="8eeb7a951770623d1482a4438ac19e3d62402bb8" data-short="383c146" title="Run VIDiff for commit 383c146">&#9655;</a></td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
     <tr data-project="false" data-deponly="false">
       <td class="cidash-rev">
         <div class="cidash-rev-wrap">
