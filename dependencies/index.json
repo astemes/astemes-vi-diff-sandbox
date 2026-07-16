@@ -2,50 +2,7 @@
   "schema": 1,
   "repo": "astemes/astemes-vi-diff-sandbox",
   "sha": "3e67d276babcd99cd215fb50890d390895684c2c",
-  "revisions": [
-    {
-      "sha": "3e67d276babcd99cd215fb50890d390895684c2c",
-      "short": "3e67d27",
-      "message": "Update vidiff-linux-container.yml",
-      "author": "Anton Sundqvist",
-      "date": "2026-06-29T05:27:38Z"
-    },
-    {
-      "sha": "f798c099e870ee0062718bb793479c0982f50d51",
-      "short": "f798c09",
-      "message": "Merge branch 'main' of https://github.com/astemes/astemes-vi-diff-sandbox",
-      "author": "Anton Sundqvist",
-      "date": "2026-06-29T05:18:28Z"
-    },
-    {
-      "sha": "383c14661d8adbad3ecc83e7c0f16d6c791f2a6f",
-      "short": "383c146",
-      "message": "Update Main.vi",
-      "author": "Anton Sundqvist",
-      "date": "2026-06-29T05:18:21Z"
-    },
-    {
-      "sha": "58f55904bde978726a91a2e5cbc7e7554747d11b",
-      "short": "58f5590",
-      "message": "Add LabVIEW CI pipeline",
-      "author": "Anton Sundqvist",
-      "date": "2026-06-29T05:08:44Z"
-    },
-    {
-      "sha": "8eeb7a951770623d1482a4438ac19e3d62402bb8",
-      "short": "8eeb7a9",
-      "message": "Create Main.vi",
-      "author": "Anton Sundqvist",
-      "date": "2026-06-29T04:59:57Z"
-    },
-    {
-      "sha": "50126a28ade6033206e114b03044f87ad7bcfc79",
-      "short": "50126a2",
-      "message": "Initial commit",
-      "author": "Anton Sundqvist",
-      "date": "2026-06-29T04:59:18Z"
-    }
-  ],
+  "revisions": [],
   "config": {
     "use": "",
     "actions": {},
