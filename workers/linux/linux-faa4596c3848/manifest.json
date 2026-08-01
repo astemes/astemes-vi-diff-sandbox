@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "platform": "linux",
+  "version": "linux-faa4596c3848",
+  "labview_version": "2026",
+  "base_image": "ghcr.io/elijah286/labview-ci-with-containers-labview:linux-2026",
+  "base_digest": "sha256:2e2ded8d48f845469156b66f5d0224b0167e8bbc4c6092e7247fd7e82de1ddea",
+  "seed_image": "",
+  "seed_digest": "",
+  "worker_layer": "",
+  "copied_from_base": false,
+  "image_ref": "ghcr.io/astemes/astemes-vi-diff-sandbox-labview:linux-faa4596c3848",
+  "build_date": "2026-08-01T06:36:26Z",
+  "git_sha": "3e67d276babcd99cd215fb50890d390895684c2c",
+  "run_url": "https://github.com/astemes/astemes-vi-diff-sandbox/actions/runs/30688039586",
+  "vipc": [],
+  "vipm_raw": "",
+  "vipm_packages": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
